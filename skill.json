@@ -1,0 +1,22 @@
+{
+  "name": "genpark-personal-agent-immune-cd4-cd8-senescent-ratio-inversion-skill",
+  "version": "1.0.0",
+  "description": "CD4+/CD8+ lymphocyte ratio inversion (<1.0), CD28- CD57+ senescent memory T-cell expansion immune risk phenotype (IRP) calculator.",
+  "category": "personal_agent",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "evaluate_immune_risk_phenotype_ratio",
+      "description": "CD4+/CD8+ lymphocyte ratio inversion (<1.0), CD28- CD57+ senescent memory T-cell expansion immune risk phenotype (IRP) calculator.",
+      "sample_input": {
+        "cd4_count_cells_ul": 620,
+        "cd8_count_cells_ul": 780,
+        "cd28_neg_cd57_pos_pct": 34.5,
+        "cmv_seropositive": true
+      }
+    }
+  ]
+}
